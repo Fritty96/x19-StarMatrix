@@ -13,7 +13,7 @@ vector <vector<char> > star;
 int userrow;
 int usercol;
 
-cout << "Enter rows and columns of stars." << endl;
+cout << "Enter rows and columns of stars:" << endl;
 cin >> userrow;
 cin >> usercol;
 
