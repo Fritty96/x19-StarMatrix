@@ -1,3 +1,4 @@
+//Author: Madison Phillips
 #include <iostream>
 #include <vector>
 
@@ -12,7 +13,7 @@ vector <vector<char> > star;
 int userrow;
 int usercol;
 
-cout << "Enter rows then columns of stars." << endl;
+cout << "Enter rows and columns of stars." << endl;
 cin >> userrow;
 cin >> usercol;
 
@@ -31,7 +32,7 @@ for (int row = 0; row < star.size(); row++){
 
 
     for (int col = 0; col < star[row].size(); col++){
-    cout << "* ";
+    cout << "*";
     
     
     }
